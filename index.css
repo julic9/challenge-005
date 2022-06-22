@@ -1,0 +1,139 @@
+body{
+    background-color: whitesmoke;
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+    
+}
+.fondo{
+    display: flex;
+    width: 90%;
+    height: 700px;
+    position: relative;
+    align-items: ;
+    filter: ;
+    margin: auto;
+}
+.contenedor{
+    display: flex;
+    width: 60%;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.699);
+    border-radius: 20px;
+    margin: 100px 250px 100px 250px;
+    justify-content: space-around;
+    border: 15px solid white;
+    padding: 10px;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    box-sizing: border-box;
+    position: absolute;
+      
+}
+.card1{
+    display: flex;
+    width: 29%;
+    flex-direction: column;
+    margin-top: 10px;
+    box-sizing: border-box;
+        
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    filter: blur(30px);
+}
+.rosa a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.negro a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.verde a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.rosa{
+    width: 60%;
+    height: 45px;
+    background-color: rgb(243, 43, 126);
+    border: none;
+    border-radius: 8px;
+}
+.negro{
+    width: 60%;
+    height: 45px;
+    background-color: black;
+    border: none;
+    border-radius: 8px;
+}
+.verde{
+    width: 40%;
+    height: 45px;
+    background-color: rgb(11, 226, 241);
+    border: none;
+    border-radius: 8px;
+    
+}
+p{
+    color: rgb(5, 5, 54);
+}
+h2{
+    color: rgb(5, 5, 54) ;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.number{
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0;
+    padding: 0%;
+
+}
+span{
+    font-size: 1.8rem;
+    color:  rgb(5, 5, 54);
+    margin: 0;
+}
+.oferta{
+    font-size: small;
+    text-align: left;
+    margin: 0 0 20px 0;
+}
+.expli{
+    width: 209.422px;
+    height: 60px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-weight: 500;
+    
+}
+#free{
+    width: 219px;
+}
+.violeta{
+    margin-left: 200px;
+    margin-top: 300px;
+    opacity: .4;
+    box-sizing: border-box;
+}
+.celeste{
+    margin-bottom: 300px;
+    margin-right: 100px;
+    margin-left: -100px;
+    opacity: .4;
+    box-sizing: border-box;
+}
+.rosita{
+    margin-left: -80px;
+    margin-top: 80px;
+    opacity: .4;
+    box-sizing: border-box;
+}
