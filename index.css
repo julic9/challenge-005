@@ -137,3 +137,27 @@ span{
     opacity: .4;
     box-sizing: border-box;
 }
+
+@media (max-width:1300px){
+    
+    .contenedor{
+        flex-direction: column;
+        height: auto;
+        width: 60%;
+        align-items: center;
+    }
+    .card1{
+        width: 80%;
+    }
+    #free{
+        width: 80%;
+    }
+    .rosita{
+        margin-top: 900px;
+        margin-left: -300px;
+    }
+    .violeta{
+        margin-top: 500px;
+        margin-left: 150px;
+    }
+}
