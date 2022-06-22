@@ -15,11 +15,11 @@ body{
 }
 .contenedor{
     display: flex;
-    width: 60%;
+    width: 70%;
     height: 400px;
     background-color: rgba(255, 255, 255, 0.699);
     border-radius: 20px;
-    margin: 100px 250px 100px 250px;
+    margin: 100px 150px 100px 200px;
     justify-content: space-around;
     border: 15px solid white;
     padding: 10px;
@@ -36,6 +36,7 @@ body{
     flex-direction: column;
     margin-top: 10px;
     box-sizing: border-box;
+    margin-right: 10px;
         
 }
 img{
@@ -151,6 +152,29 @@ span{
     }
     #free{
         width: 80%;
+    }
+    .rosita{
+        margin-top: 900px;
+        margin-left: -300px;
+    }
+    .violeta{
+        margin-top: 500px;
+        margin-left: 150px;
+    }
+}
+@media (max-width:650px){
+    
+    .contenedor{
+        flex-direction: column;
+        height: auto;
+        width: 90%;
+        align-items: center;
+    }
+    .card1{
+        width: 90%;
+    }
+    #free{
+        width: 90%;
     }
     .rosita{
         margin-top: 900px;
